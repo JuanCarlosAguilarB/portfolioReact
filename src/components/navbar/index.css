@@ -1,0 +1,101 @@
+/* *{border: 1px solid black;} */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    
+    
+
+  }
+  
+  .container-right {
+    display: flex;
+  }
+  
+  .animate-charcter {
+    /* text-transform: uppercase; */
+    background-image: linear-gradient(
+      -225deg,
+      #231557 0%,
+      #44107a 29%,
+      #ff1361 67%,
+      #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 19px;
+  }
+  
+  @keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+  .container-right ul {
+    display: flex;
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+  }
+  
+  .container-right ul li {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+  }
+  
+  .container-right ul li a {
+    text-decoration: none;
+    color:#fff;
+    font-size: 20px;
+  }
+  
+  .container-right .btn {
+    margin: 0 10px;
+    border: 2px solid gray;
+    border-radius: 16px;
+    padding: 6px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  /* --------------------------------- */
+  
+  .waviy {
+      
+    position: relative;
+    -webkit-box-reflect: below -0 linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+    
+    
+  }
+  .waviy a:hover {
+    /* font-family: "Alfa Slab One", cursive; */
+    position: relative;
+    display: inline-block;
+    color: white;
+    /* text-transform: uppercase; */
+    animation: waviy 1s infinite;
+    animation-delay: calc(0.2s * var(--i));
+  }
+  @keyframes waviy {
+    0%,
+    40%,
+    100% {
+      transform: translateY(0);
+    }
+    20% {
+      transform: translateY(-20px);
+    }
+  }
+  
