@@ -70,4 +70,4 @@ const Projects = () => {
   )
 }
 
-export default Projectsf
+export default Projects;
