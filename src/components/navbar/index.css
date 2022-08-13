@@ -2,7 +2,7 @@
 
 /* *{border: 1px solid black;} */
 
-.fixed{position:fixed; top:0}
+/* .fixed{position:fixed; top:0} */
 
 .main-container {
     display: flex;
