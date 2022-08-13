@@ -4,7 +4,7 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div className="main-container">
+        <div className="main-container fixed">
         <div className="conitainer-left"><span className="animate-charcter">Juan Carlos A</span></div>
         <div className="container-right">
             <ul>
