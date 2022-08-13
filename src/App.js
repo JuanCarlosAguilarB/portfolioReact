@@ -9,7 +9,7 @@ import { Banner } from "./components/Banner";
 // import { Footer } from "./components/Footer";
 
 import Navbar from "./components/navbar"
-
+import Projects from './components/projects';
 
 function App() {
   return (
@@ -19,6 +19,8 @@ function App() {
 
       {/* <NavBar /> */}
       <Banner />
+      <Projects/>
+
       {/* <Skills /> */}
       {/* <Projects /> */}
       {/* <Contact /> */}
