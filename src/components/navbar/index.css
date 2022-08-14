@@ -8,10 +8,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
-    
-    
-
+    padding: 10px;
+    background-color: #94B49F;
+    background-color: #94B49F;
   }
   
   .container-right {
@@ -56,13 +55,14 @@
   
   .container-right ul li {
     text-decoration: none;
-    color: black;
+    /* color: black; */
     margin: 0 10px;
   }
   
   .container-right ul li a {
     text-decoration: none;
     color:#fff;
+    /* color:#0e2717; */
     font-size: 20px;
   }
   
